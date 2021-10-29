@@ -57,3 +57,10 @@ body {
 .infoConatiner {
   display: flex;
 }
+
+@media (min-width: 900px) {
+  .container {
+    flex-direction: row;
+    width: 700px;
+  }
+}
